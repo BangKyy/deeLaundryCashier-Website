@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../../css/myadmin/add-expenses.css">
+  <link rel="stylesheet" href="../../css/partials/global-variable.css">
+  <link rel="stylesheet" href="../../css/partials/style-global.css">
+
+  <title>Add Expenses | Dee Laundry Cashier</title>
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+</head>
+
+<body>
+  <div class="content-container">
+    <div class="content-section">
+      <div class="addExpenses-content">
+        <div class="navbar-section">
+          <a href="../../home/" class="qrcode-box opt-box">
+            <i class="ph ph-caret-left"></i>
+          </a>
+          <div class="navbar-opt-section">
+            <a href="" class="qrcode-box opt-box">
+              <i class="ph ph-scan"></i>
+            </a>
+            <a href="" class="notif-box opt-box">
+              <i class="ph ph-bell"></i>
+            </a>
+          </div>
+        </div>
+        <div class="text-content">
+          <div class="expenses-title">
+            <h4>Add Expense Data</h4>
+          </div>
+          <div class="dataInput-container">
+            <div class="input-section">
+              <h4>Select Date</h4>
+              <div class="input-box">
+                <input type="date" name="Select Date" placeholder="00/00/0000" id="" class="selectDate-input">
+              </div>
+            </div>
+            <div class="input-section">
+              <h4>Select the Expenditure Category</h4>
+              <div class="input-box">
+                <input type="text" name="Expenditure Category" placeholder="Expenditure Category"
+                id="dropdown" class="expenditureCategory-input" />
+                <i class="ph-fill ph-caret-down"></i>
+              </div>
+            </div>
+            <div class="input-section">
+              <h4>Total</h4>
+              <div class="input-box">
+                <input type="number" name="Total Expense" placeholder="Total expense" id="" class="totalExpense-input">
+              </div>
+            </div>
+            <div class="input-section">
+              <h4>Noted</h4>
+              <div class="input-box">
+                <input type="text" name="Noted" placeholder="Noted" id="" class="noted-input">
+              </div>
+            </div>
+            <div class="saveExpense-section">
+              <div class="saveExpense-btn active">
+                <h4 class="active">Save Expense</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navBottom-container">
+        <div class="navBottom-section">
+          <a href="../../home/" class="nav-opt">
+            <i class="ph ph-house home"></i>
+            <h4 class="home">Home</h4>
+          </a>
+          <a href="../../order/" class="nav-opt">
+            <i class="ph ph-clipboard-text order"></i>
+            <h4 class="order">Order</h4>
+          </a>
+          <a href="../../report/" class="nav-opt">
+            <i class="ph ph-chart-donut report"></i>
+            <h4 class="report">Report</h4>
+          </a>
+          <a href="../../settings/" class="nav-opt">
+            <i class="ph ph-gear-six settings"></i>
+            <h4 class="settings">Settings</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../js/addExpenses.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../css/myadmin/add-transaction.css">
+    <link rel="stylesheet" href="../../css/partials/global-variable.css">
+    <link rel="stylesheet" href="../../css/partials/style-global.css">
+
+    <title>Add Transaction | Dee Laundry Cashier</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+</head>
+<body>
+    <div class="content-container">
+        <div class="content-section">
+            <div class="addTransaction-content">
+                <div class="navbar-section">
+                    <a href="../../home/" class="qrcode-box opt-box">
+                        <i class="ph ph-caret-left"></i>
+                    </a>
+                    <div class="navbar-opt-section">
+                        <a href="" class="qrcode-box opt-box">
+                            <i class="ph ph-scan"></i>
+                        </a>
+                        <a href="" class="notif-box opt-box">
+                            <i class="ph ph-bell"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <div class="transaction-navbar">
+                        <a href="../../myadmin/add-customer/" class="addCustomer-box active">
+                            <h4 class="active">Add New Customer</h4>
+                        </a>
+                        <a href="../../myadmin/add-services/" class="addServices-box">
+                            <h4>Add Services</h4>
+                        </a>
+                    </div>
+                    <div class="searchCustomers-container">
+                        <div class="title-section">
+                            <h4>Customers</h4>
+                            <a href="../../myadmin/customer-data/">View All</a>
+                        </div>
+                        <div class="inputSearch-section">
+                            <div class="search-box">
+                                <i class="ph ph-magnifying-glass"></i>
+                                <input type="search" name="searchCustomers" placeholder="Search customer name" id="" class="searchCustomers">
+                            </div>
+                            <div class="sort-box">
+                                <i class="ph ph-funnel"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customers-container">
+                        <div class="pinCustomer-section">
+                            <i class="ph-fill ph-push-pin"></i>
+                            <h4>Pinned Customers</h4>
+                        </div>
+                        <a href="../add-services/" class="customer-section">
+                            <div class="profile-customer">
+                                <div class="photo-section">
+                                    <i class="ph ph-user"></i>
+                                </div>
+                                <div class="name-section">
+                                    <h4>Dimas Akbar Maulana</h4>
+                                    <h6>082140627334</h6>
+                                </div>
+                            </div>
+                            <i class="ph ph-caret-right arrow"></i>
+                        </a>
+                    </div>
+                    <div class="customers-container">
+                        <div class="pinCustomer-section">
+                            <h4>Last Customers</h4>
+                        </div>
+                        <div class="customer-section">
+                            <div class="profile-customer">
+                                <div class="photo-section">
+                                    <i class="ph ph-user"></i>
+                                </div>
+                                <div class="name-section">
+                                    <h4>Dimas Akbar Maulana</h4>
+                                    <h6>082140627334</h6>
+                                </div>
+                            </div>
+                            <i class="ph ph-caret-right arrow"></i>
+                        </div>
+                        <div class="customer-section">
+                            <div class="profile-customer">
+                                <div class="photo-section">
+                                    <i class="ph ph-user"></i>
+                                </div>
+                                <div class="name-section">
+                                    <h4>Dimas Akbar Maulana</h4>
+                                    <h6>082140627334</h6>
+                                </div>
+                            </div>
+                            <i class="ph ph-caret-right arrow"></i>
+                        </div>
+                        <div class="customer-section">
+                            <div class="profile-customer">
+                                <div class="photo-section">
+                                    <i class="ph ph-user"></i>
+                                </div>
+                                <div class="name-section">
+                                    <h4>Dimas Akbar Maulana</h4>
+                                    <h6>082140627334</h6>
+                                </div>
+                            </div>
+                            <i class="ph ph-caret-right arrow"></i>
+                        </div>
+                    </div>
+                    <div class="serviceOrder-container">
+                        <div class="title-section">
+                            <h4>Service Order Details</h4>
+                            <h6>You have not selected any available services</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-container">
+                <div class="price-section">
+                    <h6>Total Price</h6>
+                    <h4>Rp 0</h4>
+                </div>
+                <div class="order-section">
+                    <div class="del-btn">
+                        <i class="ph ph-trash"></i>
+                    </div>
+                    <a href="../add-transaction/process/" class="order-btn">
+                        <h4>Order</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="navBottom-container">
+                <div class="navBottom-section">
+                    <a href="../../home/" class="nav-opt">
+                        <i class="ph ph-house home"></i>
+                        <h4 class="home">Home</h4>
+                    </a>
+                    <a href="../../order/" class="nav-opt">
+                        <i class="ph ph-clipboard-text order"></i>
+                        <h4 class="order">Order</h4>
+                    </a>
+                    <a href="../../report/" class="nav-opt">
+                        <i class="ph ph-chart-donut report"></i>
+                        <h4 class="report">Report</h4>
+                    </a>
+                    <a href="../../settings/" class="nav-opt">
+                        <i class="ph ph-gear-six settings"></i>
+                        <h4 class="settings">Settings</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/addServices.js"></script>
+    <script src="../../js/partials/deletePriceBtn.js"></script>
+</body>
+</html>

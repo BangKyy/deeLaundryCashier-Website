@@ -1,0 +1,284 @@
+.content-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 424px; */
+    /* outline: 4mm ridge var(--darkOrange-color); */
+    /* background-color: var(--bgColor); */
+    /* z-index: 1; */
+    margin-bottom: 4rem;
+    /* border-radius: 32px; */
+    width: 100%;
+}
+.content-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 424px; */
+    width: 100%;
+}
+.order-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    z-index: 1;
+    /* max-width: 400px; */
+    /* position: absolute; */
+    /* background-color: var(--themeOrange-color); */
+    padding: 28px 40px;
+}
+.navbar-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.img-section{
+    display: flex;
+    width: 100%;
+}
+.img-section img{
+    width: 40px;
+}
+.navbar-opt-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.opt-box{
+    display: flex;
+    align-items: center;
+    border: solid 1px var(--gray-color2);
+    padding: 6px;
+    border-radius: 50px;
+    background-color: var(--secondary-white-color);
+    cursor: pointer;
+}
+.opt-box i{
+    font-size: 20px;
+}
+.lang-box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.opt-box .ph-caret-down{
+    font-size: 14px;
+}
+.opt-box img{
+    width: 18px;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    z-index: -2;
+}
+.orderBar-container{
+    display: flex;
+    gap: 4px;
+    border: solid 0.2px var(--gray-color2);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 12px;
+    gap: 12px;
+    background-color: var(--secondary-white-color);
+}
+.order-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #FFFFFF;
+    border: solid 0.2px var(--gray-color2);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 22px 0;
+    cursor: pointer;
+}
+.active{
+    background-color: var(--themeOrange-color);
+}
+.active h4{
+    color: var(--white-color);
+}
+.order-box h4{
+    font-size: 16px;
+    font-weight: var(--bold-5);
+}
+.order-box .notif{
+    padding: 4px 10px;
+    border-radius: 100%;
+    background-color: #FFECD9;
+}
+.notif h6{
+    font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+    .orderBar-container{
+        /* display: grid; */
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+    }
+    .order-box{
+        gap: 6px;
+        padding: 10px 0;
+    }
+    .order-box h4{
+        font-size: 8px;
+    }
+    .notif h6{
+        font-size: 8px;
+    }
+    .order-box .notif{
+        padding: 4px 8px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .order-content{
+        padding: 20px;
+    }
+    .orderBar-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        padding: 6px;
+    }
+}
+
+.customers-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.customers-box{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: solid 0.2px var(--gray-color2);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+.customers-box .profile-box{
+    display: flex;
+    background-color: var(--gray-color2);
+    padding: 6px;
+    padding: 7px;
+    border-radius: 8px;
+}
+.profileUser{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 8px;
+}
+.profile-box i{
+    font-size: 26px;
+}
+.profileUser .sum{
+    display: flex;
+    width: 100%;
+}
+.sum .date-section,
+.sum .price-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sum .price-section{
+    display: flex;
+    align-items: flex-end;
+}
+.profileUser .user h3{
+    font-size: 12px;
+    font-weight: var(--bold-5);
+}
+.profileUser .user h4{
+    font-size: 10px;
+}
+.profileUser .sum .date-section h4{
+    font-size: 8px;
+    font-weight: var(--bold-5);
+    color: var(--gray-color3);
+}
+.price-section .note{
+    color: var(--gray-color1);
+    font-size: 8px;
+    font-weight: var(--bold-5);
+}
+.price-section .price{
+    color: var(--red-color1);
+    font-size: 8px;
+    font-weight: var(--bold-5);
+}
+
+.navBottom-container{
+    /* position: absolute; */
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+}
+.navBottom-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.nav-opt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-opt .order{
+    color: var(--themeOrange-color);
+}
+.nav-opt i{
+    font-size: 24px;
+    color: var(--gray-color3);
+}
+.nav-opt h4{
+    font-size: 10px;
+    color: var(--gray-color3);
+    font-weight: var(--bold-5);
+}
+
+@media screen and (max-width: 380px) {
+    .home-content{
+        padding: 20px;
+    }
+    .mainService-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 8px;
+    }
+}

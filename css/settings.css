@@ -1,0 +1,251 @@
+.content-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 424px; */
+    /* outline: 4mm ridge var(--darkOrange-color); */
+    /* background-color: var(--bgColor); */
+    /* z-index: 1; */
+    margin-bottom: 4rem;
+    /* border-radius: 32px; */
+    width: 100%;
+}
+.content-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 424px; */
+    width: 100%;
+}
+.setting-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    z-index: 1;
+    /* max-width: 400px; */
+    /* position: absolute; */
+    /* background-color: var(--themeOrange-color); */
+    padding: 28px 40px;
+}
+.navbar-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.img-section{
+    display: flex;
+    width: 100%;
+}
+.img-section img{
+    width: 40px;
+}
+.navbar-opt-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.opt-box{
+    display: flex;
+    align-items: center;
+    border: solid 1px var(--gray-color2);
+    padding: 6px;
+    border-radius: 50px;
+    background-color: var(--secondary-white-color);
+    cursor: pointer;
+}
+.opt-box i{
+    font-size: 20px;
+}
+.lang-box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.opt-box .ph-caret-down{
+    font-size: 14px;
+}
+.opt-box img{
+    width: 18px;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    z-index: -2;
+}
+.otherSettings-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.otherSettings-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: solid 0.2px var(--gray-color2);
+    padding: 14px 8px;
+    border-radius: 10px;
+    gap: 4px;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+.otherSettings-box h4{
+    font-size: 12px;
+    font-weight: var(--bold-5);
+}
+.otherSettings-section{
+    display: flex;
+    align-items: stretch;
+    gap: 6px;
+}
+.otherSettings-sum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.otherSettings-sum i{
+    font-size: 24px;
+    color: var(--gray-color1);
+}
+.otherSettings-sum h4{
+    font-size: 8px;
+    font-weight: var(--bold-5);
+    color: var(--gray-color1);
+    text-align: center;
+}
+.otherSettings-container .otherSettings-title{
+    display: flex;
+    justify-content: center;
+    background-color: var(--themeOrange-color);
+    padding: 8px 0;
+    border-radius: 8px;
+}
+.otherSettings-title h4{
+    font-size: 14px;
+    font-weight: var(--bold-5);
+    color: var(--white-color);
+}
+
+.mainSettings-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 16px;
+}
+.mainSettings-container .title-section{
+    font-size: 14px;
+    font-weight: var(--bold-4);
+}
+.opt-settings{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.select-opt-box{
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-white-color);
+    border: solid 0.2px var(--gray-color2);
+    box-shadow: var(--box-shadow);
+    padding: 16px;
+    border-radius: 10px;
+}
+.select-opt-box .main-opt{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+}
+.select-opt-box .main-opt i{
+    font-size: 24px;
+    color: var(--gray-color1);
+}
+.main-opt h4{
+    font-size: 14px;
+    font-weight: var(--bold-5);
+    color: var(--gray-color3);
+}
+.select-opt-box i{
+    font-size: 16px;
+    color: var(--gray-color3);
+}
+.select-opt-box .main-opt .logout,
+.main-opt .logout,
+.select-opt-box .logout{
+    color: var(--red-color1);
+}
+
+.navBottom-container{
+    /* position: absolute; */
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+}
+.navBottom-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.nav-opt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-opt .settings{
+    color: var(--themeOrange-color);
+}
+.nav-opt i{
+    font-size: 24px;
+    color: var(--gray-color3);
+}
+.nav-opt h4{
+    font-size: 10px;
+    color: var(--gray-color3);
+    font-weight: var(--bold-5);
+}
+@media screen and (max-width: 780px) {
+    .setting-box{
+        gap: 6px;
+        padding: 8px 0;
+    }
+    .setting-box h4{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .setting-content{
+        padding: 20px;
+    }
+}

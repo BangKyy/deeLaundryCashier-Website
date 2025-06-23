@@ -1,0 +1,236 @@
+.content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 424px; */
+  /* outline: 4mm ridge var(--darkOrange-color); */
+  /* background-color: var(--bgColor); */
+  /* z-index: 1; */
+  margin-bottom: 4rem;
+  /* border-radius: 32px; */
+  width: 100%;
+}
+.content-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* width: 424px; */
+  width: 100%;
+}
+.addCustomer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  /* height: 110vh; */
+  z-index: 1;
+  /* max-width: 400px; */
+  /* position: absolute; */
+  /* background-color: var(--themeOrange-color); */
+  padding: 28px 40px;
+}
+.navbar-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.img-section {
+  display: flex;
+  width: 100%;
+}
+.img-section img {
+  width: 40px;
+}
+.navbar-opt-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.opt-box {
+  display: flex;
+  align-items: center;
+  border: solid 1px var(--gray-color2);
+  padding: 6px;
+  border-radius: 50px;
+  background-color: var(--secondary-white-color);
+  cursor: pointer;
+}
+.opt-box i {
+  font-size: 20px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  z-index: -2;
+}
+.services-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.services-title h4 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--themeOrange-color);
+}
+
+.dataInput-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dataInput-container .radio-section,
+.dataInput-container .input-section {
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.dataInput-container .input-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: var(--white-color); */
+  background-color: transparent;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  border: solid 1px var(--themeOrange-color);
+  padding: 10px 16px;
+}
+.input-box input {
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.input-box input::placeholder {
+  color: var(--gray-color3);
+  font-weight: var(--bold-4);
+  font-size: 12px;
+}
+.dataInput-container .radio-section h4,
+.dataInput-container .input-section h4 {
+  font-size: 12px;
+  font-weight: var(--bold-5);
+}
+.radio-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.optRadio-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.radio-section .optRadio-box label {
+  font-weight: var(--bold-5);
+  font-size: 10px;
+}
+.optRadio-box input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 14.5px;
+  height: 14.5px;
+  padding: 1.5px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 1.5px solid var(--themeOrange-color);
+  background-color: var(--white-color);
+  border-radius: 50%;
+}
+/* appearance for checked radiobutton */
+.optRadio-box input[type="radio"]:checked {
+  background-color: var(--themeOrange-color);
+}
+.addCustomerBtn-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.addCustomerBtn-section {
+  background-color: var(--themeOrange-color);
+}
+.addCustomer-btn h4 {
+  font-size: 12px;
+  font-weight: var(--bold-5);
+}
+.addCustomer-btn h4 {
+  color: var(--white-color);
+}
+
+.navBottom-container {
+  /* position: absolute; */
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: var(--box-shadow);
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navBottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
+.nav-opt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+  cursor: pointer;
+}
+/* .nav-opt .home{
+    color: var(--themeOrange-color);
+} */
+.nav-opt i {
+  font-size: 24px;
+  color: var(--gray-color3);
+}
+.nav-opt h4 {
+  font-size: 10px;
+  color: var(--gray-color3);
+  font-weight: var(--bold-5);
+}
+
+@media screen and (max-width: 380px) {
+  .addCustomer-content {
+    padding: 20px;
+  }
+  .checkout-container {
+    left: 5%;
+    width: 90%;
+  }
+}

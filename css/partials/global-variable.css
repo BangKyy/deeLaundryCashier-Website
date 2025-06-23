@@ -1,0 +1,47 @@
+/*  Global Variables */
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+
+    --themeOrange-color: #F68714;
+    --darkOrange-color: #E76E0F;
+    --lightOrange-color: #F9A53E;
+    --veryLightOrange-color: #FFE3C6;
+
+    --red-color1: #FF4540;
+    --red-color2: #FFCBCA;
+    --yellow-color1: #FFCE0A;
+    --yellow-color2: #FFF3C1;
+    --green-color1: #0FBC5F;
+    --green-color2: #C9FFC4;
+
+    --gray-color1: #606060;
+    --gray-color2: #E2E2E2;
+    --gray-color3: #ABABAB;
+    --gray-color4: #E3E3E3;
+    --gray-color5: #6A6A6A;
+
+    --white-color: #FFFDFA;
+    --secondary-white-color: #FFFFFF;
+    --black-color: #190C01;
+    --bgColor: #FFFCF7;
+
+    --hover-btn-orange: #b48409;
+    --hover-btn-green: #205b8b;
+    --hover-btn-yellow: #174066;
+    --hover-btn-red: #174066;
+    --hover-black: #464646;
+
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+
+    --transition-1: all .3s ease-in-out;
+
+    /* Font Weight */
+    --bold-8: 800;
+    --bold-7: 700;
+    --bold-6: 600;
+    --bold-5: 500;
+    --bold-4: 400;
+    --bold-3: 300;
+    --bold-2: 200;
+    --bold-1: 100;
+}
