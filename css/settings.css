@@ -174,16 +174,16 @@
     width: 100%;
 }
 .select-opt-box .main-opt i{
-    font-size: 24px;
+    font-size: 18px;
     color: var(--gray-color1);
 }
 .main-opt h4{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: var(--bold-5);
     color: var(--gray-color3);
 }
 .select-opt-box i{
-    font-size: 16px;
+    font-size: 12px;
     color: var(--gray-color3);
 }
 .select-opt-box .main-opt .logout,

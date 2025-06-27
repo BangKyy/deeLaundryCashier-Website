@@ -258,17 +258,17 @@
 
 .noted-section .sum-section .status {
     font-size: 10px;
-    color: var(--gray-color1);
-    font-weight: var(--bold-4);
-}
-
-.noted-section .sum-section .price {
-    font-size: 10px;
     color: var(--green-color1);
     font-weight: var(--bold-6);
 }
 
-.noted-section .sum-section .priceCanceled {
+.noted-section .sum-section .price {
+    font-size: 10px;
+    color: var(--gray-color1);
+    font-weight: var(--bold-4);
+}
+
+.noted-section .sum-section .statusCanceled {
     font-size: 10px;
     color: var(--red-color1);
     font-weight: var(--bold-6);
